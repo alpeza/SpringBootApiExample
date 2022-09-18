@@ -83,23 +83,23 @@ spring:
 
 + Listado de usuarios
 
-<img src="imageresource/1.png" style="width:300px;"/>
+<img src="imageresource/1.png" style="width:500px;"/>
 
 + Información de un usuario
 
-<img src="imageresource/2.png" style="width:300px;"/>
+<img src="imageresource/2.png" style="width:500px;"/>
 
 + Alta de un nuevo usuario
 
-<img src="imageresource/3.png" style="width:300px;"/>
+<img src="imageresource/3.png" style="width:500px;"/>
 
 + Eliminación de un usuario por su id
 
-<img src="imageresource/4.png" style="width:300px;"/>
+<img src="imageresource/4.png" style="width:500px;"/>
 
 + Update de un usuario por su id
 
-<img src="imageresource/5.png" style="width:300px;"/>
+<img src="imageresource/5.png" style="width:500px;"/>
 
 
 # Referencias
