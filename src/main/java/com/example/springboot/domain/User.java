@@ -1,15 +1,13 @@
 package com.example.springboot.domain;
+import jakarta.persistence.*;
 
-
-
-import javax.persistence.*;
 
 @Entity
 @Table(name = "user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int iduser;
+    private Long iduser;
 
     private String name;
     private String telephone;
@@ -17,18 +15,18 @@ public class User {
 
     public User() {  }
 
-    public User(int iduser, String name, String telephone, String email) {
+    public User(Long iduser, String name, String telephone, String email) {
         this.iduser = iduser;
         this.name = name;
         this.telephone = telephone;
         this.email = email;
     }
 
-    public int getIduser() {
+    public Long getIduser() {
         return iduser;
     }
 
-    public void setIduser(int iduser) {
+    public void setIduser(Long iduser) {
         this.iduser = iduser;
     }
 
