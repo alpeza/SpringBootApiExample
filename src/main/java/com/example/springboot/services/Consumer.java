@@ -1,6 +1,5 @@
 package com.example.springboot.services;
 
-import com.example.springboot.controllers.UserController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -10,7 +9,7 @@ import java.io.IOException;
 
 @Service
 public class Consumer {
-    private final Logger logger = LoggerFactory.getLogger(UserController.class);
+    private final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
     @KafkaListener(topics = "users")
     public void consume(String message) throws IOException {
