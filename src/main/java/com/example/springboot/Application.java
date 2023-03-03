@@ -20,7 +20,6 @@ public class Application {
 		return args -> {
 
 			System.out.println("Arrancando aplicación");
-
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
